@@ -1,20 +1,85 @@
-# Insta Bulk Reels Downloader
+🎥 Insta Bulk Reels Downloader 
 
-This Python bot allows you to download all reels (video posts) from a specific Instagram account in bulk. The reels are saved in a folder named after the Instagram username in your system's default project directory.
+Easily download all Instagram Reels from any public account — in bulk!
+No manual saving, no browser needed. Just run the script and let it collect every reel video for you. 💾
 
-## Features
-- Downloads only videos (reels) from the specified Instagram account.
-- Saves reels in the default project folder under a sub-folder named after the Instagram username.
-- Automatically removes any non-video files if downloaded by mistake.
 
-## Prerequisites
-- Python 3.7 or higher
-- An active Instagram account (optional, but recommended for scraping public data)
-- Ensure you comply with Instagram's terms and conditions when using this tool.
+---
 
-## Installation
+✨ Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ak2hay1/Insta_Bulk_Reels_Downloader.git
-   cd Insta_Bulk_Reels_Downloader
+✅ Download all Reels (videos only) from a given Instagram username
+✅ Auto-create folder named after the user
+✅ Skips non-video content (like images or carousels)
+✅ Lightweight and fast scraping
+✅ Beginner-friendly setup
+
+
+---
+
+⚙️ Prerequisites
+
+✅ Python 3.7 or above
+
+✅ pip installed
+
+🔐 Instagram account (optional but helps avoid scraping limits)
+
+🚨 Make sure to comply with Instagram's Terms of Use
+
+
+
+---
+
+🚀 Installation & Setup
+
+git clone https://github.com/ak2hay1/Insta_Bulk_Reels_Downloader.git
+cd Insta_Bulk_Reels_Downloader
+pip install -r requirements.txt
+
+
+---
+
+🛠️ How to Use
+
+1. Run the script:
+
+python insta_reel_downloader.py
+
+
+2. Enter the Instagram username when prompted.
+
+
+3. Sit back and relax — all reels will be downloaded to a folder named after the username!
+
+
+
+
+---
+
+🧰 Tech Stack
+
+Python 🐍
+
+Instaloader 📦
+
+OS & File I/O modules
+
+
+
+---
+
+📁 Example Output
+
+📂 Insta_Bulk_Reels_Downloader/
+└── 📁 virat.kohli/
+    ├── reel1.mp4
+    ├── reel2.mp4
+    └── ...
+
+
+---
+
+🙌 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
